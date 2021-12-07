@@ -40,7 +40,10 @@ function App() {
           />
 
           <Route path={RUTAS.cotizador} element={
-          <Cotizador />}
+          <Cotizador
+            estadoGlobal={estadoGlobal}
+            setEstadoGlobal={setEstadoGlobal}
+          />}
           />
         </Routes>
 
